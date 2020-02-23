@@ -1,0 +1,61 @@
+<div class="appointment-page">
+	<div class="container">
+			<form class="appointment ">
+			<div class="row">
+				<div class="col">
+					<input type="text" name="name" placeholder="Nombre" class="form-control">
+					<input type="text" name="lastname" placeholder="Apellido" class="form-control">
+				</div>
+				<div class="row">
+					<div class="col">
+					<input type="text" name="identification" placeholder="identificacion" class="form-control">
+					<select name="document" class="form-control">
+							<option>Cedula</option>
+							<option>Tarjeta identidad</option>
+							<option>Registro Civil</option>
+							<option>Cedula extranjeria</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<input type="text" name="pais" placeholder="Pais" class="form-control">
+						<input type="text" name="dpto" placeholder="Departamento" class="form-control">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="text" name="city" placeholder="Ciudad" class="form-control">
+						<input type="text" name="address" placeholder="Direccion" class="form-control">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="text" name="phone" placeholder="Telefono" class="form-control">
+						<input type="emal" name="email" placeholder="email" class="form-control">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+					<div class="form-control">
+			  	<i class="material-icons">
+						access_time
+						</i>
+			  	<input class="time" atp-time-picker value="12:00">			  	
+			  	</div>
+						<div class="form-control">
+							<i class="material-icons">
+							calendar_today
+							</i>
+							<input type="date" id="start" name="trip-start"
+			       value="2020-02-21"
+			       min="2013-01-01" max="2022-12-31" class="time">
+						</div>
+					</div>
+					<button mat-flat-button class="send">Solicitar Medico</button>
+				</div>
+			</div>
+		</form>
+	</div>	
+</div>
+
