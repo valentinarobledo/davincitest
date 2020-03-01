@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box;
+	margin: auto;
+	padding: 0;
+	background-color: #002473;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	height: 30px;
+}
+ a{
+ 	margin-top: 5px;
+ }
+ button{
+
+ 	border-radius: 20px;
+ }

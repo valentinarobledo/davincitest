@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl} from '@angular/forms';
+
 
 
 @Component({
@@ -8,11 +8,6 @@ import {FormControl} from '@angular/forms';
   styleUrls: ['./appointment.component.css']
 })
 export class AppointmentComponent implements OnInit {
-	model:any = {}
-	
-	add():void{
-
-	}
 
   constructor() { }
 
